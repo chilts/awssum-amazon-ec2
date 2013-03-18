@@ -60,7 +60,7 @@ var Ec2 = function(opts) {
 };
 
 // inherit from Amazon
-util.inherits(Ec2, amazon.Amazon);
+util.inherits(Ec2, amazon.AmazonSignatureV2);
 
 // --------------------------------------------------------------------------------------------------------------------
 // methods we need to implement from awssum.js/amazon.js
