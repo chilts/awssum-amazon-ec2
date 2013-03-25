@@ -1,6 +1,6 @@
 {
     "name" : "awssum-amazon-ec2",
-    "description" : "NodeJS module to talk to Amazon Elastic Compute Cloud (EC2).",
+    "description" : "AwsSum plugin for Amazon Elastic Compute Cloud (EC2).",
     "version" : "1.0.0",
 
     "main" : "awssum-amazon-ec2.js",
