@@ -1,7 +1,7 @@
 {
     "name" : "awssum-amazon-ec2",
     "description" : "AwsSum plugin for Amazon Elastic Compute Cloud (EC2).",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
 
     "main" : "awssum-amazon-ec2.js",
     "engines" : {
