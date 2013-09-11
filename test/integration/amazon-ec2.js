@@ -10,11 +10,12 @@
 // --------------------------------------------------------------------------------------------------------------------
 // requires
 
-var fs = require('fs');
-var test = require('tap').test;
-var awssum = require('../../');
-var amazon = awssum.load('amazon/amazon');
-var Ec2 = awssum.load('amazon/ec2').Ec2;
+// npm
+var test = require('tape');
+
+// local
+var amazonEc2 = require('../../awssum-amazon-ec2.js');
+var Ec2 = amazonEc2.Ec2;
 
 // --------------------------------------------------------------------------------------------------------------------
 
@@ -24,11 +25,12 @@ try {
     ec2 = new Ec2({
         'accessKeyId'     : env.ACCESS_KEY_ID,
         'secretAccessKey' : env.SECRET_ACCESS_KEY,
-        'region'          : amazon.US_EAST_1
+        'region'          : amazonEc2.US_EAST_1,
     });
 }
 catch(e) {
     // env vars aren't set, so skip these integration tests
+    console.log('Skipping test : ' + e);
     process.exit();
 }
 
