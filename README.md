@@ -1,4 +1,4 @@
-# awssum-amazon-s3 #
+# awssum-amazon-ec2 #
 
 This is an ```AwsSum``` plugin!
 
