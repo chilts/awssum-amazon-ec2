@@ -17,10 +17,10 @@
         "dateformat" : "1.0.4-1.2.3"
     },
     "devDependencies" : {
-        "tap" : "0.4.x"
+        "tape" : "*"
     },
     "scripts" : {
-        "test" : "tap test/*.js test/integration/*.js"
+        "test" : "set -e; find test/ -name '*.js' -exec echo --- {} --- ';' -exec node {} ';'"
     },
 
     "homepage" : "https://github.com/awssum/awssum-amazon-ec2/",
