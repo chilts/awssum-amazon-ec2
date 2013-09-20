@@ -21,7 +21,7 @@ var optionalData  = { required : false, type : 'param-data'  };
 module.exports = {
 
     AllocateAddress : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AllocateAddress.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AllocateAddress.html',
         defaults : {
             Action : 'AllocateAddress'
         },
@@ -32,7 +32,7 @@ module.exports = {
     },
 
     AssignPrivateIpAddresses : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AssignPrivateIpAddresses.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AssignPrivateIpAddresses.html',
         defaults : {
             Action : 'AssignPrivateIpAddresses',
         },
@@ -46,7 +46,7 @@ module.exports = {
     },
 
     AssociateAddress : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AssociateAddress.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AssociateAddress.html',
         defaults : {
             Action : 'AssociateAddress',
         },
@@ -62,7 +62,7 @@ module.exports = {
     },
 
     AssociateDhcpOptions : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AssociateDhcpOptions.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AssociateDhcpOptions.html',
         defaults : {
             Action : 'AssociateDhcpOptions',
         },
@@ -74,7 +74,7 @@ module.exports = {
     },
 
     AssociateRouteTable : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AssociateRouteTable.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AssociateRouteTable.html',
         defaults : {
             Action : 'AssociateRouteTable',
         },
@@ -86,7 +86,7 @@ module.exports = {
     },
 
     AttachInternetGateway : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AttachInternetGateway.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AttachInternetGateway.html',
         defaults : {
             Action : 'AttachInternetGateway',
         },
@@ -98,7 +98,7 @@ module.exports = {
     },
 
     AttachNetworkInterface : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AttachNetworkInterface.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AttachNetworkInterface.html',
         defaults : {
             Action : 'AttachNetworkInterface',
         },
@@ -111,7 +111,7 @@ module.exports = {
     },
 
     AttachVolume : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AttachVolume.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AttachVolume.html',
         defaults : {
             Action : 'AttachVolume',
         },
@@ -124,7 +124,7 @@ module.exports = {
     },
 
     AttachVpnGateway : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AttachVpnGateway.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AttachVpnGateway.html',
         defaults : {
             Action : 'AttachVpnGateway',
         },
@@ -136,7 +136,7 @@ module.exports = {
     },
 
     AuthorizeSecurityGroupEgress : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupEgress.html',
         defaults : {
             Action : 'AuthorizeSecurityGroupEgress',
         },
@@ -148,7 +148,7 @@ module.exports = {
     },
 
     AuthorizeSecurityGroupIngress : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupIngress.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-AuthorizeSecurityGroupIngress.html',
         defaults : {
             Action : 'AuthorizeSecurityGroupIngress',
         },
@@ -162,7 +162,7 @@ module.exports = {
     },
 
     BundleInstance : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-BundleInstance.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-BundleInstance.html',
         defaults : {
             Action : 'BundleInstance',
         },
@@ -174,7 +174,7 @@ module.exports = {
     },
 
     CancelBundleTask : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CancelBundleTask.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CancelBundleTask.html',
         defaults : {
             Action : 'CancelBundleTask',
         },
@@ -185,7 +185,7 @@ module.exports = {
     },
 
     CancelConversionTask : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CancelConversionTask.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CancelConversionTask.html',
         defaults : {
             Action : 'CancelConversionTask',
         },
@@ -196,7 +196,7 @@ module.exports = {
     },
 
     CancelExportTask : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CancelExportTask.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CancelExportTask.html',
         defaults : {
             Action : 'CancelExportTask',
         },
@@ -207,7 +207,7 @@ module.exports = {
     },
 
     CancelReservedInstancesListing : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CancelReservedInstancesListing.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CancelReservedInstancesListing.html',
         defaults : {
             Action : 'CancelReservedInstancesListing',
         },
@@ -218,7 +218,7 @@ module.exports = {
     },
 
     CancelSpotInstanceRequests : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CancelSpotInstanceRequests.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CancelSpotInstanceRequests.html',
         defaults : {
             Action : 'CancelSpotInstanceRequests',
         },
@@ -229,7 +229,7 @@ module.exports = {
     },
 
     ConfirmProductInstance : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ConfirmProductInstance.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ConfirmProductInstance.html',
         defaults : {
             Action : 'ConfirmProductInstance',
         },
@@ -269,7 +269,7 @@ module.exports = {
     },
 
     CreateCustomerGateway : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateCustomerGateway.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateCustomerGateway.html',
         defaults : {
             Action : 'CreateCustomerGateway',
         },
@@ -282,7 +282,7 @@ module.exports = {
     },
 
     CreateDhcpOptions : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateDhcpOptions.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateDhcpOptions.html',
         defaults : {
             Action : 'CreateDhcpOptions',
         },
@@ -293,7 +293,7 @@ module.exports = {
     },
 
     CreateImage : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateImage.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateImage.html',
         defaults : {
             Action : 'CreateImage',
         },
@@ -307,7 +307,7 @@ module.exports = {
     },
 
     CreateInstanceExportTask : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateInstanceExportTask.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateInstanceExportTask.html',
         defaults : {
             Action : 'CreateInstanceExportTask',
         },
@@ -321,7 +321,7 @@ module.exports = {
     },
 
     CreateInternetGateway : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateInternetGateway.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateInternetGateway.html',
         defaults : {
             Action : 'CreateInternetGateway',
         },
@@ -331,7 +331,7 @@ module.exports = {
     },
 
     CreateKeyPair : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateKeyPair.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateKeyPair.html',
         defaults : {
             Action : 'CreateKeyPair',
         },
@@ -342,7 +342,7 @@ module.exports = {
     },
 
     CreateNetworkAcl : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateNetworkAcl.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateNetworkAcl.html',
         defaults : {
             Action : 'CreateNetworkAcl',
         },
@@ -353,7 +353,7 @@ module.exports = {
     },
 
     CreateNetworkAclEntry : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateNetworkAclEntry.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateNetworkAclEntry.html',
         defaults : {
             Action : 'CreateNetworkAclEntry',
         },
@@ -371,7 +371,7 @@ module.exports = {
     },
 
     CreateNetworkInterface : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateNetworkInterface.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateNetworkInterface.html',
         defaults : {
             Action : 'CreateNetworkInterface',
         },
@@ -387,7 +387,7 @@ module.exports = {
     },
 
     CreatePlacementGroup : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreatePlacementGroup.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreatePlacementGroup.html',
         defaults : {
             Action : 'CreatePlacementGroup',
         },
@@ -399,7 +399,7 @@ module.exports = {
     },
 
     CreateReservedInstancesListing : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateReservedInstancesListing.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateReservedInstancesListing.html',
         defaults : {
             Action : 'CreateReservedInstancesListing',
         },
@@ -413,7 +413,7 @@ module.exports = {
     },
 
     CreateRoute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateRoute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateRoute.html',
         defaults : {
             Action : 'CreateRoute',
         },
@@ -428,7 +428,7 @@ module.exports = {
     },
 
     CreateRouteTable : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateRouteTable.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateRouteTable.html',
         defaults : {
             Action : 'CreateRouteTable',
         },
@@ -439,7 +439,7 @@ module.exports = {
     },
 
     CreateSecurityGroup : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateSecurityGroup.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateSecurityGroup.html',
         defaults : {
             Action : 'CreateSecurityGroup',
         },
@@ -452,7 +452,7 @@ module.exports = {
     },
 
     CreateSnapshot : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateSnapshot.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateSnapshot.html',
         defaults : {
             Action : 'CreateSnapshot',
         },
@@ -464,7 +464,7 @@ module.exports = {
     },
 
     CreateSpotDatafeedSubscription : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateSpotDatafeedSubscription.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateSpotDatafeedSubscription.html',
         defaults : {
             Action : 'CreateSpotDatafeedSubscription',
         },
@@ -476,7 +476,7 @@ module.exports = {
     },
 
     CreateSubnet : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateSubnet.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateSubnet.html',
         defaults : {
             Action : 'CreateSubnet',
         },
@@ -489,7 +489,7 @@ module.exports = {
     },
 
     CreateTags : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateTags.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateTags.html',
         defaults : {
             Action : 'CreateTags',
         },
@@ -501,7 +501,7 @@ module.exports = {
     },
 
     CreateVolume : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVolume.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVolume.html'
         defaults : {
             Action : 'CreateVolume',
         },
@@ -514,7 +514,7 @@ module.exports = {
     },
 
     CreateVpc : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVpc.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVpc.html',
         defaults : {
             Action : 'CreateVpc',
         },
@@ -526,7 +526,7 @@ module.exports = {
     },
 
     CreateVpnConnection : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVpnConnection.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVpnConnection.html',
         defaults : {
             Action : 'CreateVpnConnection',
         },
@@ -540,7 +540,7 @@ module.exports = {
     },
 
     CreateVpnConnectionRoute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVpnConnectionRoute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVpnConnectionRoute.html',
         defaults : {
             Action : 'CreateVpnConnectionRoute',
         },
@@ -552,7 +552,7 @@ module.exports = {
     },
 
     CreateVpnGateway : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVpnGateway.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVpnGateway.html',
         defaults : {
             Action : 'CreateVpnGateway',
         },
@@ -564,7 +564,7 @@ module.exports = {
     },
 
     DeleteCustomerGateway : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteCustomerGateway.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteCustomerGateway.html',
         defaults : {
             Action : 'DeleteCustomerGateway',
         },
@@ -575,7 +575,7 @@ module.exports = {
     },
 
     DeleteDhcpOptions : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteDhcpOptions.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteDhcpOptions.html',
         defaults : {
             Action : 'DeleteDhcpOptions',
         },
@@ -586,7 +586,7 @@ module.exports = {
     },
 
     DeleteInternetGateway : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteInternetGateway.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteInternetGateway.html',
         defaults : {
             Action : 'DeleteInternetGateway',
         },
@@ -597,7 +597,7 @@ module.exports = {
     },
 
     DeleteKeyPair : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteKeyPair.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteKeyPair.html',
         defaults : {
             Action : 'DeleteKeyPair',
         },
@@ -608,7 +608,7 @@ module.exports = {
     },
 
     DeleteNetworkAcl : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteNetworkAcl.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteNetworkAcl.html',
         defaults : {
             Action : 'DeleteNetworkAcl',
         },
@@ -619,7 +619,7 @@ module.exports = {
     },
 
     DeleteNetworkAclEntry : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteNetworkAclEntry.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteNetworkAclEntry.html',
         defaults : {
             Action : 'DeleteNetworkAclEntry',
         },
@@ -632,7 +632,7 @@ module.exports = {
     },
 
     DeleteNetworkInterface : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteNetworkInterface.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteNetworkInterface.html',
         defaults : {
             Action : 'DeleteNetworkInterface',
         },
@@ -643,7 +643,7 @@ module.exports = {
     },
 
     DeletePlacementGroup : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeletePlacementGroup.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeletePlacementGroup.html',
         defaults : {
             Action : 'DeletePlacementGroup',
         },
@@ -654,7 +654,7 @@ module.exports = {
     },
 
     DeleteRoute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteRoute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteRoute.html',
         defaults : {
             Action : 'DeleteRoute',
         },
@@ -666,7 +666,7 @@ module.exports = {
     },
 
     DeleteRouteTable : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteRouteTable.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteRouteTable.html',
         defaults : {
             Action : 'DeleteRouteTable',
         },
@@ -677,7 +677,7 @@ module.exports = {
     },
 
     DeleteSecurityGroup : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteSecurityGroup.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteSecurityGroup.html',
         defaults : {
             Action : 'DeleteSecurityGroup',
         },
@@ -689,7 +689,7 @@ module.exports = {
     },
 
     DeleteSnapshot : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteSnapshot.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteSnapshot.html',
         defaults : {
             Action : 'DeleteSnapshot',
         },
@@ -700,7 +700,7 @@ module.exports = {
     },
 
     DeleteSpotDatafeedSubscription : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteSpotDatafeedSubscription.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteSpotDatafeedSubscription.html',
         defaults : {
             Action : 'DeleteSpotDatafeedSubscription',
         },
@@ -710,7 +710,7 @@ module.exports = {
     },
 
     DeleteSubnet : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteSubnet.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteSubnet.html',
         defaults : {
             Action : 'DeleteSubnet',
         },
@@ -721,7 +721,7 @@ module.exports = {
     },
 
     DeleteTags : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteTags.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteTags.html',
         defaults : {
             Action : 'DeleteTags',
         },
@@ -733,7 +733,7 @@ module.exports = {
     },
 
     DeleteVolume : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteVolume.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteVolume.html',
         defaults : {
             Action : 'DeleteVolume',
         },
@@ -744,7 +744,7 @@ module.exports = {
     },
 
     DeleteVpc : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteVpc.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteVpc.html',
         defaults : {
             Action : 'DeleteVpc',
         },
@@ -755,7 +755,7 @@ module.exports = {
     },
 
     DeleteVpnConnection : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteVpnConnection.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteVpnConnection.html',
         defaults : {
             Action : 'DeleteVpnConnection',
         },
@@ -766,7 +766,7 @@ module.exports = {
     },
 
     DeleteVpnConnectionRoute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteVpnConnectionRoute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteVpnConnectionRoute.html',
         defaults : {
             Action : 'DeleteVpnConnectionRoute',
         },
@@ -778,7 +778,7 @@ module.exports = {
     },
 
     DeleteVpnGateway : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteVpnGateway.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeleteVpnGateway.html',
         defaults : {
             Action : 'DeleteVpnGateway',
         },
@@ -789,7 +789,7 @@ module.exports = {
     },
 
     DeregisterImage : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DeregisterImage.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DeregisterImage.html',
         defaults : {
             Action : 'DeregisterImage',
         },
@@ -811,7 +811,7 @@ module.exports = {
     },
 
     DescribeAddresses : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeAddresses.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeAddresses.html',
         defaults : {
             Action : 'DescribeAddresses',
         },
@@ -824,7 +824,7 @@ module.exports = {
     },
 
     DescribeAvailabilityZones : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeAvailabilityZones.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeAvailabilityZones.html',
         defaults : {
             Action : 'DescribeAvailabilityZones',
         },
@@ -836,7 +836,7 @@ module.exports = {
     },
 
     DescribeBundleTasks : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeBundleTasks.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeBundleTasks.html',
         defaults : {
             Action : 'DescribeBundleTasks',
         },
@@ -848,7 +848,7 @@ module.exports = {
     },
 
     DescribeConversionTasks : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeConversionTasks.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeConversionTasks.html',
         defaults : {
             Action : 'DescribeConversionTasks',
         },
@@ -859,7 +859,7 @@ module.exports = {
     },
 
     DescribeCustomerGateways : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeCustomerGateways.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeCustomerGateways.html',
         defaults : {
             Action : 'DescribeCustomerGateways',
         },
@@ -871,7 +871,7 @@ module.exports = {
     },
 
     DescribeDhcpOptions : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeDhcpOptions.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeDhcpOptions.html',
         defaults : {
             Action : 'DescribeDhcpOptions',
         },
@@ -883,7 +883,7 @@ module.exports = {
     },
 
     DescribeExportTasks : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeExportTasks.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeExportTasks.html',
         defaults : {
             Action : 'DescribeExportTasks',
         },
@@ -894,7 +894,7 @@ module.exports = {
     },
 
     DescribeImageAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeImageAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeImageAttribute.html',
         defaults : {
             Action : 'DescribeImageAttribute',
         },
@@ -906,7 +906,7 @@ module.exports = {
     },
 
     DescribeImages : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeImages.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeImages.html',
         defaults : {
             Action : 'DescribeImages',
         },
@@ -920,7 +920,7 @@ module.exports = {
     },
 
     DescribeInstanceAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeInstanceAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeInstanceAttribute.html',
         defaults : {
             Action : 'DescribeInstanceAttribute',
         },
@@ -932,7 +932,7 @@ module.exports = {
     },
 
     DescribeInstances : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeInstances.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeInstances.html',
         defaults : {
             Action : 'DescribeInstances',
         },
@@ -944,7 +944,7 @@ module.exports = {
     },
 
     DescribeInstanceStatus : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeInstanceStatus.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeInstanceStatus.html',
         defaults : {
             Action : 'DescribeInstanceStatus',
         },
@@ -958,7 +958,7 @@ module.exports = {
     },
 
     DescribeInternetGateways : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeInternetGateways.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeInternetGateways.html',
         defaults : {
             Action : 'DescribeInternetGateways',
         },
@@ -970,7 +970,7 @@ module.exports = {
     },
 
     DescribeKeyPairs : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeKeyPairs.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeKeyPairs.html',
         defaults : {
             Action : 'DescribeKeyPairs',
         },
@@ -982,7 +982,7 @@ module.exports = {
     },
 
     DescribeNetworkAcls : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeNetworkAcls.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeNetworkAcls.html',
         defaults : {
             Action : 'DescribeNetworkAcls',
         },
@@ -994,7 +994,7 @@ module.exports = {
     },
 
     DescribeNetworkInterfaceAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeNetworkInterfaceAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeNetworkInterfaceAttribute.html',
         defaults : {
             Action : 'DescribeNetworkInterfaceAttribute',
         },
@@ -1006,7 +1006,7 @@ module.exports = {
     },
 
     DescribeNetworkInterfaces : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeNetworkInterfaces.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeNetworkInterfaces.html',
         defaults : {
             Action : 'DescribeNetworkInterfaces',
         },
@@ -1018,7 +1018,7 @@ module.exports = {
     },
 
     DescribePlacementGroups : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribePlacementGroups.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribePlacementGroups.html',
         defaults : {
             Action : 'DescribePlacementGroups',
         },
@@ -1030,7 +1030,7 @@ module.exports = {
     },
 
     DescribeRegions : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeRegions.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeRegions.html',
         defaults : {
             Action : 'DescribeRegions',
         },
@@ -1042,7 +1042,7 @@ module.exports = {
     },
 
     DescribeReservedInstances : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeReservedInstances.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeReservedInstances.html',
         defaults : {
             Action : 'DescribeReservedInstances',
         },
@@ -1055,7 +1055,7 @@ module.exports = {
     },
 
     DescribeReservedInstancesListings : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeReservedInstancesListings.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeReservedInstancesListings.html',
         defaults : {
             Action : 'DescribeReservedInstancesListings',
         },
@@ -1081,7 +1081,7 @@ module.exports = {
     },
 
     DescribeReservedInstancesOfferings : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeReservedInstancesOfferings.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeReservedInstancesOfferings.html',
         defaults : {
             Action : 'DescribeReservedInstancesOfferings',
         },
@@ -1098,7 +1098,7 @@ module.exports = {
     },
 
     DescribeRouteTables : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeRouteTables.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeRouteTables.html',
         defaults : {
             Action : 'DescribeRouteTables',
         },
@@ -1110,7 +1110,7 @@ module.exports = {
     },
 
     DescribeSecurityGroups : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSecurityGroups.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSecurityGroups.html',
         defaults : {
             Action : 'DescribeSecurityGroups',
         },
@@ -1123,7 +1123,7 @@ module.exports = {
     },
 
     DescribeSnapshotAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSnapshotAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSnapshotAttribute.html',
         defaults : {
             Action : 'DescribeSnapshotAttribute',
         },
@@ -1135,7 +1135,7 @@ module.exports = {
     },
 
     DescribeSnapshots : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSnapshots.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSnapshots.html',
         defaults : {
             Action : 'DescribeSnapshots',
         },
@@ -1149,7 +1149,7 @@ module.exports = {
     },
 
     DescribeSpotDatafeedSubscription : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSpotDatafeedSubscription.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSpotDatafeedSubscription.html',
         defaults : {
             Action : 'DescribeSpotDatafeedSubscription',
         },
@@ -1159,7 +1159,7 @@ module.exports = {
     },
 
     DescribeSpotInstanceRequests : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSpotInstanceRequests.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSpotInstanceRequests.html',
         defaults : {
             Action : 'DescribeSpotInstanceRequests',
         },
@@ -1171,7 +1171,7 @@ module.exports = {
     },
 
     DescribeSpotPriceHistory : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSpotPriceHistory.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSpotPriceHistory.html',
         defaults : {
             Action : 'DescribeSpotPriceHistory',
         },
@@ -1189,7 +1189,7 @@ module.exports = {
     },
 
     DescribeSubnets : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSubnets.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeSubnets.html',
         defaults : {
             Action : 'DescribeSubnets',
         },
@@ -1201,7 +1201,7 @@ module.exports = {
     },
 
     DescribeTags : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeTags.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeTags.html',
         defaults : {
             Action : 'DescribeTags',
         },
@@ -1212,7 +1212,7 @@ module.exports = {
     },
 
     DescribeVolumes : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVolumes.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVolumes.html',
         defaults : {
             Action : 'DescribeVolumes',
         },
@@ -1224,7 +1224,7 @@ module.exports = {
     },
 
     DescribeVolumeAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVolumeAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVolumeAttribute.html',
         defaults : {
             Action : 'DescribeVolumeAttribute',
         },
@@ -1236,7 +1236,7 @@ module.exports = {
     },
 
     DescribeVolumeStatus : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVolumeStatus.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVolumeStatus.html',
         defaults : {
             Action : 'DescribeVolumeStatus',
         },
@@ -1262,7 +1262,7 @@ module.exports = {
     },
 
     DescribeVpcs : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVpcs.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVpcs.html',
         defaults : {
             Action : 'DescribeVpcs',
         },
@@ -1274,7 +1274,7 @@ module.exports = {
     },
 
     DescribeVpnConnections : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVpnConnections.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVpnConnections.html',
         defaults : {
             Action : 'DescribeVpnConnections',
         },
@@ -1286,7 +1286,7 @@ module.exports = {
     },
 
     DescribeVpnGateways : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVpnGateways.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVpnGateways.html',
         defaults : {
             Action : 'DescribeVpnGateways',
         },
@@ -1298,7 +1298,7 @@ module.exports = {
     },
 
     DetachInternetGateway : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DetachInternetGateway.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DetachInternetGateway.html',
         defaults : {
             Action : 'DetachInternetGateway',
         },
@@ -1310,7 +1310,7 @@ module.exports = {
     },
 
     DetachNetworkInterface : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DetachNetworkInterface.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DetachNetworkInterface.html',
         defaults : {
             Action : 'DetachNetworkInterface',
         },
@@ -1322,7 +1322,7 @@ module.exports = {
     },
 
     DetachVolume : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DetachVolume.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DetachVolume.html',
         defaults : {
             Action : 'DetachVolume',
         },
@@ -1336,7 +1336,7 @@ module.exports = {
     },
 
     DetachVpnGateway : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DetachVpnGateway.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DetachVpnGateway.html',
         defaults : {
             Action : 'DetachVpnGateway',
         },
@@ -1348,7 +1348,7 @@ module.exports = {
     },
 
     DisableVgwRoutePropagation : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DisableVGWRoutePropagation.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DisableVGWRoutePropagation.html',
         defaults : {
             Action : 'DisableVgwRoutePropagation',
         },
@@ -1360,7 +1360,7 @@ module.exports = {
     },
 
     DisassociateAddress : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DisassociateAddress.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DisassociateAddress.html',
         defaults : {
             Action : 'DisassociateAddress',
         },
@@ -1372,7 +1372,7 @@ module.exports = {
     },
 
     DisassociateRouteTable : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DisassociateRouteTable.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DisassociateRouteTable.html',
         defaults : {
             Action : 'DisassociateRouteTable',
         },
@@ -1383,7 +1383,7 @@ module.exports = {
     },
 
     EnableVgwRoutePropagation : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-EnableVGWRoutePropagation.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-EnableVGWRoutePropagation.html',
         defaults : {
             Action : 'EnableVgwRoutePropagation',
         },
@@ -1395,7 +1395,7 @@ module.exports = {
     },
 
     EnableVolumeIo : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-EnableVolumeIO.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-EnableVolumeIO.html',
         defaults : {
             Action : 'EnableVolumeIO',
         },
@@ -1406,7 +1406,7 @@ module.exports = {
     },
 
     GetConsoleOutput : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-GetConsoleOutput.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-GetConsoleOutput.html',
         defaults : {
             Action : 'GetConsoleOutput',
         },
@@ -1417,7 +1417,7 @@ module.exports = {
     },
 
     GetPasswordData : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-GetPasswordData.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-GetPasswordData.html',
         defaults : {
             Action : 'GetPasswordData',
         },
@@ -1428,7 +1428,7 @@ module.exports = {
     },
 
     ImportInstance : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ImportInstance.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ImportInstance.html',
         defaults : {
             Action : 'ImportInstance',
         },
@@ -1450,7 +1450,7 @@ module.exports = {
     },
 
     ImportKeyPair : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ImportKeyPair.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ImportKeyPair.html',
         defaults : {
             Action : 'ImportKeyPair',
         },
@@ -1462,7 +1462,7 @@ module.exports = {
     },
 
     ImportVolume : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ImportVolume.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ImportVolume.html',
         defaults : {
             Action : 'ImportVolume',
         },
@@ -1476,7 +1476,7 @@ module.exports = {
     },
 
     ModifyImageAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ModifyImageAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ModifyImageAttribute.html',
         defaults : {
             Action : 'ModifyImageAttribute',
         },
@@ -1490,7 +1490,7 @@ module.exports = {
     },
 
     ModifyInstanceAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ModifyInstanceAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ModifyInstanceAttribute.html',
         defaults : {
             Action : 'ModifyInstanceAttribute',
         },
@@ -1511,7 +1511,7 @@ module.exports = {
     },
 
     ModifyNetworkInterfaceAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ModifyNetworkInterfaceAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ModifyNetworkInterfaceAttribute.html',
         defaults : {
             Action : 'ModifyNetworkInterfaceAttribute',
         },
@@ -1539,7 +1539,7 @@ module.exports = {
     },
 
     ModifySnapshotAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ModifySnapshotAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ModifySnapshotAttribute.html',
         defaults : {
             Action : 'ModifySnapshotAttribute',
         },
@@ -1551,7 +1551,7 @@ module.exports = {
     },
 
     ModifyVolumeAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ModifyVolumeAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ModifyVolumeAttribute.html',
         defaults : {
             Action : 'ModifyVolumeAttribute',
         },
@@ -1576,7 +1576,7 @@ module.exports = {
     },
 
     MonitorInstances : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-MonitorInstances.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-MonitorInstances.html',
         defaults : {
             Action : 'MonitorInstances',
         },
@@ -1587,7 +1587,7 @@ module.exports = {
     },
 
     PurchaseReservedInstancesOffering : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-PurchaseReservedInstancesOffering.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-PurchaseReservedInstancesOffering.html',
         defaults : {
             Action : 'PurchaseReservedInstancesOffering',
         },
@@ -1599,7 +1599,7 @@ module.exports = {
     },
 
     RebootInstances : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-RebootInstances.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RebootInstances.html',
         defaults : {
             Action : 'RebootInstances',
         },
@@ -1610,7 +1610,7 @@ module.exports = {
     },
 
     RegisterImage : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-RegisterImage.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RegisterImage.html',
         defaults : {
             Action : 'RegisterImage',
         },
@@ -1628,7 +1628,7 @@ module.exports = {
     },
 
     ReleaseAddress : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ReleaseAddress.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ReleaseAddress.html',
         defaults : {
             Action : 'ReleaseAddress',
         },
@@ -1640,7 +1640,7 @@ module.exports = {
     },
 
     ReplaceNetworkAclAssociation : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ReplaceNetworkAclAssociation.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ReplaceNetworkAclAssociation.html',
         defaults : {
             Action : 'ReplaceNetworkAclAssociation',
         },
@@ -1652,7 +1652,7 @@ module.exports = {
     },
 
     ReplaceNetworkAclEntry : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ReplaceNetworkAclEntry.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ReplaceNetworkAclEntry.html',
         defaults : {
             Action : 'ReplaceNetworkAclEntry',
         },
@@ -1670,7 +1670,7 @@ module.exports = {
     },
 
     ReplaceRoute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ReplaceRoute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ReplaceRoute.html',
         defaults : {
             Action : 'ReplaceRoute',
         },
@@ -1685,7 +1685,7 @@ module.exports = {
     },
 
     ReplaceRouteTableAssociation : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ReplaceRouteTableAssociation.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ReplaceRouteTableAssociation.html',
         defaults : {
             Action : 'ReplaceRouteTableAssociation',
         },
@@ -1697,7 +1697,7 @@ module.exports = {
     },
 
     ReportInstanceStatus : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ReportInstanceStatus.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ReportInstanceStatus.html',
         defaults : {
             Action : 'ReportInstanceStatus',
         },
@@ -1713,7 +1713,7 @@ module.exports = {
     },
 
     RequestSpotInstances : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-RequestSpotInstances.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RequestSpotInstances.html',
         defaults : {
             Action : 'RequestSpotInstances',
         },
@@ -1733,7 +1733,7 @@ module.exports = {
     },
 
     ResetImageAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ResetImageAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ResetImageAttribute.html',
         defaults : {
             Action : 'ResetImageAttribute',
         },
@@ -1745,7 +1745,7 @@ module.exports = {
     },
 
     ResetInstanceAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ResetInstanceAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ResetInstanceAttribute.html',
         defaults : {
             Action : 'ResetInstanceAttribute',
         },
@@ -1757,7 +1757,7 @@ module.exports = {
     },
 
     ResetNetworkInterfaceAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ResetNetworkInterfaceAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ResetNetworkInterfaceAttribute.html',
         defaults : {
             Action : 'ResetNetworkInterfaceAttribute',
         },
@@ -1769,7 +1769,7 @@ module.exports = {
     },
 
     ResetSnapshotAttribute : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ResetSnapshotAttribute.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ResetSnapshotAttribute.html',
         defaults : {
             Action : 'ResetSnapshotAttribute',
         },
@@ -1781,7 +1781,7 @@ module.exports = {
     },
 
     RevokeSecurityGroupEgress : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-RevokeSecurityGroupEgress.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RevokeSecurityGroupEgress.html',
         defaults : {
             Action : 'RevokeSecurityGroupEgress',
         },
@@ -1793,7 +1793,7 @@ module.exports = {
     },
 
     RevokeSecurityGroupIngress : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-RevokeSecurityGroupIngress.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RevokeSecurityGroupIngress.html',
         defaults : {
             Action : 'RevokeSecurityGroupIngress',
         },
@@ -1807,7 +1807,7 @@ module.exports = {
     },
 
     RunInstances : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-RunInstances.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RunInstances.html',
         defaults : {
             Action : 'RunInstances',
         },
@@ -1839,7 +1839,7 @@ module.exports = {
     },
 
     StartInstances : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-StartInstances.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-StartInstances.html',
         defaults : {
             Action : 'StartInstances',
         },
@@ -1850,7 +1850,7 @@ module.exports = {
     },
 
     StopInstances : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-StopInstances.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-StopInstances.html',
         defaults : {
             Action : 'StopInstances',
         },
@@ -1862,7 +1862,7 @@ module.exports = {
     },
 
     TerminateInstances : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-TerminateInstances.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-TerminateInstances.html',
         defaults : {
             Action : 'TerminateInstances',
         },
@@ -1873,7 +1873,7 @@ module.exports = {
     },
 
     UnassignPrivateIpAddresses : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-UnassignPrivateIpAddresses.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-UnassignPrivateIpAddresses.html',
         defaults : {
             Action : 'UnassignPrivateIpAddresses',
         },
@@ -1885,7 +1885,7 @@ module.exports = {
     },
 
     UnmonitorInstances : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-UnmonitorInstances.html',
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-UnmonitorInstances.html',
         defaults : {
             Action : 'UnmonitorInstances',
         },
