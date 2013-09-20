@@ -501,7 +501,7 @@ module.exports = {
     },
 
     CreateVolume : {
-        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVolume.html'
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CreateVolume.html',
         defaults : {
             Action : 'CreateVolume',
         },
