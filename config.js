@@ -510,6 +510,8 @@ module.exports = {
             Size             : optional,
             SnapshotId       : optional,
             AvailabilityZone : required,
+            VolumeType       : optional,
+            Iops             : optional,
         },
     },
 
