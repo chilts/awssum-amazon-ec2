@@ -240,6 +240,34 @@ module.exports = {
         },
     },
 
+    CopyImage : {
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CopyImage.html',
+        defaults : {
+            Action : 'CopyImage',
+        },
+        args : {
+            Action        : required,
+            SourceRegion  : required,
+            SourceImageId : required,
+            Name          : optional,
+            Description   : optional,
+            ClientToken   : optional,
+        },
+    },
+
+    CopySnapshot : {
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-CopySnapshot.html',
+        defaults : {
+            Action : 'CopySnapshot',
+        },
+        args : {
+            Action           : required,
+            SourceRegion     : required,
+            SourceSnapshotId : required,
+            Description      : optional,
+        },
+    },
+
     CreateCustomerGateway : {
         url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateCustomerGateway.html',
         defaults : {
@@ -358,6 +386,18 @@ module.exports = {
         },
     },
 
+    CreatePlacementGroup : {
+        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreatePlacementGroup.html',
+        defaults : {
+            Action : 'CreatePlacementGroup',
+        },
+        args : {
+            Action    : required,
+            GroupName : required,
+            Strategy  : required,
+        },
+    },
+
     CreateReservedInstancesListing : {
         url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreateReservedInstancesListing.html',
         defaults : {
@@ -369,18 +409,6 @@ module.exports = {
             InstanceCount       : required,
             PriceSchedules      : requiredData,
             ClientToken         : required,
-        },
-    },
-
-    CreatePlacementGroup : {
-        url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-CreatePlacementGroup.html',
-        defaults : {
-            Action : 'CreatePlacementGroup',
-        },
-        args : {
-            Action    : required,
-            GroupName : required,
-            Strategy  : required,
         },
     },
 
@@ -771,6 +799,17 @@ module.exports = {
         },
     },
 
+    DescribeAccountAttributes : {
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeAccountAttributes.html',
+        defaults : {
+            Action : 'DescribeAccountAttributes',
+        },
+        args : {
+            Action        : required,
+            AttributeName : requiredArray,
+        },
+    },
+
     DescribeAddresses : {
         url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeAddresses.html',
         defaults : {
@@ -1028,6 +1067,19 @@ module.exports = {
         },
     },
 
+    DescribeReservedInstancesModifications : {
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeReservedInstancesModifications.html',
+        defaults : {
+            Action : 'DescribeReservedInstancesModifications',
+        },
+        args : {
+            Action                           : required,
+            ReservedInstancesModificationIds : optionalArray,
+            NextToken                        : optional,
+            Filter                           : optionalData,
+        },
+    },
+
     DescribeReservedInstancesOfferings : {
         url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeReservedInstancesOfferings.html',
         defaults : {
@@ -1194,6 +1246,18 @@ module.exports = {
             Filter     : optionalData,
             MaxResults : optional,
             NextToken  : optional,
+        },
+    },
+
+    DescribeVpcAttribute : {
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-DescribeVpcAttribute.html',
+        defaults : {
+            Action : 'DescribeVpcAttribute',
+        },
+        args : {
+            Action    : required,
+            VpcId     : required,
+            Attribute : required,
         },
     },
 
@@ -1461,6 +1525,19 @@ module.exports = {
         },
     },
 
+    ModifyReservedInstances : {
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ModifyReservedInstances.html',
+        defaults : {
+            Action : 'ModifyNetworkInterfaceAttribute',
+        },
+        args : {
+            Action               : required,
+            ReservedInstancesId  : requiredArray,
+            ClientToken          : optional,
+            TargetConfigurations : requiredData,
+        },
+    },
+
     ModifySnapshotAttribute : {
         url : 'http://docs.amazonwebservices.com/AWSEC2/latest/APIReference/ApiReference-query-ModifySnapshotAttribute.html',
         defaults : {
@@ -1482,6 +1559,19 @@ module.exports = {
             Action       : required,
             VolumeId     : required,
             AutoEnableIO : requiredData,
+        },
+    },
+
+    ModifyVpcAttribute : {
+        url : 'http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-ModifyVpcAttribute.html',
+        defaults : {
+            Action : 'ModifyVpcAttribute',
+        },
+        args : {
+            Action             : required,
+            VpcId              : required,
+            EnableDnsSupport   : optional,
+            EnableDnsHostnames : optional,
         },
     },
 
