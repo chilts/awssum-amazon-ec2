@@ -48,6 +48,18 @@ var version = '2013-08-15';
 var Ec2 = function(opts) {
     var self = this;
 
+    if (! _.isEmpty(opts.endPoint) ) {
+      if (_.isObject(opts.endPoint)) {
+          if (!  opts.endPoint.region) {
+              throw MARK + "region not defined";
+          }
+          if (!  opts.endPoint.endpoint.host) {
+              throw MARK + "host not defined for region'"+ opts.endPoint.region +"'";
+          }
+          endPoint[opts.endPoint.region] = opts.endPoint.endpoint;
+      }
+    }
+
     // call the superclass for initialisation
     Ec2.super_.call(this, opts);
 
@@ -65,8 +77,21 @@ util.inherits(Ec2, amazon.AmazonSignatureV2);
 // --------------------------------------------------------------------------------------------------------------------
 // methods we need to implement from awssum.js/amazon.js
 
+Ec2.prototype.protocol = function() {
+    return endPoint[this.region()].protocol || "https";
+};
+
 Ec2.prototype.host = function() {
-    return endPoint[this.region()];
+    return endPoint[this.region()].host || endPoint[this.region()];
+};
+
+Ec2.prototype.port = function() {
+    var self = this;
+    return endPoint[this.region()].port || ((self.protocol() === 'http') ? 80 :  443);
+};
+
+Ec2.prototype.path = function() {
+    return endPoint[this.region()].path || "/";
 };
 
 Ec2.prototype.version = function() {
