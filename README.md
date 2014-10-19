@@ -34,6 +34,31 @@ ec2.DescribeInstances(function(err, data) {
 });
 ```
 
+## Support for third party services supporting AWS EC2 API
+
+Support for third party services supporting AWS EC2 API requires version greater than 1.4.0
+
+```
+dependencies : {
+    "awssum-amazon-ec2" : "> 1.4.0",
+},
+```
+
+### Example ##
+
+```
+var amazonEc2 = require('awssum-amazon-ec2');
+
+var ec2 = new amazonEc2.Ec2({
+    'accessKeyId'     : process.env.ACCESS_KEY_ID,
+    'secretAccessKey' : process.env.SECRET_ACCESS_KEY,
+    'region'          : 'myregion',
+    'endPoint'        : { 'region' : 'myregion',
+                          'endpoint' : {'protocol' : 'http', 'host' : 'localhost', 'port' : 8123, 'path' : '/path/to/service'}
+                        }
+});
+```
+
 ## Operations ##
 
 ### AllocateAddress ###
